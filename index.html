@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hockey's</title>
+    <!-- daisy ui cdn link  -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- google font link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <!-- css  link -->
+    <link rel="stylesheet" href="style.css">
+    <!-- font awesome link -->
+    <script src="https://kit.fontawesome.com/1534e28c32.js" crossorigin="anonymous"></script>
+    <!-- favicon link -->
+    <link rel="shortcut icon" href="Images/player.png" type="image/x-icon">
+</head>
+<body>
+    <header class="contianer lg:mx-36 lg:my-10 ">
+        <!-- nav section start -->
+        <nav>
+            <div class="navbar bg-base-100">
+                <div class="navbar-start">
+                  <div class="dropdown">
+                    <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                      <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+                    </div>
+                    <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52 ">
+                        <li><a>Home</a></li>
+                        <li><a>About</a></li>
+                        <li><a>Pages</a></li>
+                        <li><a>Blog</a></li>
+                        <li><a>Contact</a></li>
+                    </ul>
+                  </div>
+                  <a class="text-4xl font-extrabold">Hockey<span class="text-[#FF4240]">’</span>s</a>
+                </div>
+                <div class="navbar-center hidden lg:flex">
+                  <ul class="menu menu-horizontal px-1">
+                    <li class="mr-3"><a class="text-[#FF4240]">Home</a></li>
+                    <li class="mr-3"><a>About</a></li>
+                    <li class="mr-3"><a>Pages</a></li>
+                    <li class="mr-3"><a>Blog</a></li>
+                    <li class="mr-3"><a>Contact</a></li>
+                  </ul>
+                </div>
+                <div class="navbar-end">
+                    <i class="fa-solid fa-magnifying-glass mr-6"></i>
+                  <a class="btn bg-[#FF4240] text-[#FFF]  hover:bg-orange-300 py-4 px-6 rounded-lg">
+                    Get Ticket</a>
+                  
+                </div>
+              </div>
+        </nav>
+         <!-- nav section end -->
+         <!-- banner section start -->
+        <div class=" lg:mx-0 mx-5 my-14">
+            <div class="carousel w-full ">
+                <div id="slide1" class="carousel-item relative w-full">
+                  <img src="Images/1.png" class="w-full lg:h-[600px]" />
+                  <div class="absolute flex justify-between  transform -translate-y-1/2 left-5 right-5 top-1/2 ">
+                    <a href="#slide4" class="btn btn-circle carosel-left-arrow">❮</a> 
+                    <a href="#slide2" class="btn btn-circle carosel-right-arrow">❯</a>
+                  </div>
+                </div> 
+                <div id="slide2" class="carousel-item relative w-full ">
+                  <img src="Images/2.png" class="w-full lg:h-[600px]" />
+                  <div class="absolute flex justify-between  transform -translate-y-1/2 left-5 right-5 top-1/2 ">
+                    <a href="#slide1" class="btn btn-circle carosel-left-arrow">❮</a> 
+                    <a href="#slide3" class="btn btn-circle carosel-right-arrow">❯</a>
+                  </div>
+                </div> 
+              </div>
+             <div class="flex lg:justify-end justify-center lg:mr-8">
+                <div class="absolute lg:bottom-0 lg:p-10 p-7 bg-[#131318] lg:w-[600px] w-[470px] rounded-2xl ">
+                    <h1 class="text-white font-semibold text-3xl mb-4">Meet all the heroes from the field  </h1>
+                    <p class="text-[#FFFFFF]">
+                        Hockey is a term used to denote a family of various types of both summer and winter team sports which originated on either an outdoor field, sheet of ice, or dry floor such as in a gymnasium
+                    </p>
+                  </div>
+             </div>
+        </div>  
+        </div>
+         <!-- banner section end -->
+    </header>
+    <main class="contianer lg:mx-36 lg:my-10 ">
+        <!-- professional hockey club start -->
+        <section class="mt-24">
+            <div class="text-center border-t-2 border-b-2 border-dashed border-[#13131833] py-9" >
+                <h2 class="text-4xl text-[#131318] font-extrabold mb-6">Professional Hockeys Club</h2>
+                <p class="text-[#13131899]">The National Hockey League is a professional ice hockey league in North America comprising 32 teams—25 in the United States and 7 in Canada.</p>
+            </div>
+            <div class="radial-progress" style="--value:70;" role="progressbar">70%</div>
+        </section>
+        <!-- professional hockey club end -->
+    </main>
+</body>
+</html>

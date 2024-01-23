@@ -19,6 +19,7 @@
     border: none;
 }
 
+
 /* responsive for banner in mobile */
 @media screen and (max-width: 640px) { 
     .carosel-left-arrow{

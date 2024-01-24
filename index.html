@@ -57,7 +57,7 @@
         </nav>
          <!-- nav section end -->
          <!-- banner section start -->
-        <div class=" lg:mx-0 mx-5 my-14">
+        <div class=" lg:mx-0 mx-5 my-14 relative">
             <div class="carousel w-full ">
                 <div id="slide1" class="carousel-item relative w-full">
                   <img src="Images/1.png" class="w-full lg:h-[600px]" />
@@ -74,16 +74,15 @@
                   </div>
                 </div> 
               </div>
-             <div class="flex lg:justify-end justify-center lg:mr-8">
-                <div class="absolute lg:bottom-0 lg:p-10 p-7 bg-[#131318] lg:w-[600px] w-[470px] rounded-2xl ">
+              <div class="flex lg:justify-end justify-center lg:mr-8">
+                <div class="absolute lg:bottom-10 lg:p-10 p-7 bg-[#131318] lg:w-[600px] w-full rounded-2xl">
                     <h1 class="text-white font-semibold text-3xl mb-4">Meet all the heroes from the field  </h1>
                     <p class="text-[#FFFFFF]">
                         Hockey is a term used to denote a family of various types of both summer and winter team sports which originated on either an outdoor field, sheet of ice, or dry floor such as in a gymnasium
                     </p>
-                  </div>
-             </div>
+                </div>
+              </div>
         </div>  
-        </div>
          <!-- banner section end -->
     </header>
     <main class="contianer lg:mx-36 lg:my-10 ">
@@ -498,52 +497,70 @@
             </div>
             </section>
         <!-- get in touch section end -->
+        <!-- social media section start -->
+            <section class="bg-[#13131808] text-center p-6 rounded-lg mb-10 lg:mx-0 mx-6 ">
+            
+                <div>
+                  <h4 class="text-xl font-bold mb-4">Social Media</h4>
+                </div>
+                <div>
+                <i class="fa-brands fa-twitter mr-4"></i>
+                <i class="fa-brands fa-github mr-4"></i>
+                <i class="fa-brands fa-facebook mr-4"></i>
+                <i class="fa-brands fa-instagram mr-4"></i>
+                </div>
+            </section>
+        <!-- social media section end -->
 
     </main>
     <!-- footer section start -->
-    <footer>
-      <footer class="footer p-[150px] bg-[#131318] text-[#FFFFFF63]">
-        <aside>
+
+      <footer class="grid lg:gap-10 lg:grid-cols-4 lg:p-[150px] p-28 bg-[#131318] text-[#FFFFFF63]">
+        <aside class="lg:mb-0 mb-12">
         
-          <h4 class="text-2xl font-extrabold text-[#FFF] mb-5">Get In Touch</h4>
-          <p class="mb-5">You can reach us by Phone, Email,<br> Post or on Social Media!</p>
-          <div class="flex gap-4 mb-3">
+          <h4 class="text-2xl lg:text-left text-center font-extrabold text-[#FFF] mb-5">Get In Touch</h4>
+          <p class="mb-5 lg:text-left text-center">You can reach us by Phone, Email,<br> Post or on Social Media!</p>
+          <div class="flex gap-4 mb-3 lg:justify-start justify-center">
             <img src="Images/Frame letter.png" alt="">
             <p>xtremealamin1999@gmail.com</p>
           </div>
-          <div class="flex gap-4">
+          <div class="flex gap-4 lg:justify-start justify-center">
             <img src="Images/call.png" alt="">
-            <p>01859*****</p>
+            <p>01859XXXXXX</p>
           </div>
         </aside> 
         
-        <nav>
-          <h4 class=" text-white font-bold text-xl mb-10">Company</h4> 
-          <a class="link link-hover">About us</a>
-          <a class="link link-hover">Careers</a>
-          <a class="link link-hover">Legal Notice</a>
-          <a class="link link-hover">Leadership</a>
-          <a class="link link-hover">News & Article</a>
-        </nav> 
-        <nav>
-          <h4 class=" text-white font-extrabold text-xl mb-10">Support</h4> 
-          <a class="link link-hover">Help Center</a>
-          <a class="link link-hover">FAQ</a>
-          <a class="link link-hover">Ticket Support</a>
-          <a class="link link-hover">Contact Us</a>
-        </nav> 
-        <nav>
-          <h4 class=" text-white font-extrabold text-xl mb-10">Services</h4> 
-          <a class="link link-hover">Academy</a>
-          <a class="link link-hover">Group Lesson</a>
-          <a class="link link-hover">Private Lesson</a>
-          <a class="link link-hover">Hockeys for kids</a>
-          <a class="link link-hover">Hockeys for Adult</a>
-        </nav> 
-        
+        <div class="col-span-2 justify-center flex lg:gap-36 gap-6 lg:text-left text-center lg:mb-0 mb-10">
+          <nav>
+            <h4 class=" text-white font-bold text-xl mb-10">Company</h4> 
+            <a class="link link-hover block mb-4">About us</a>
+            <a class="link link-hover block mb-4">Careers</a>
+            <a class="link link-hover block mb-4">Legal Notice</a>
+            <a class="link link-hover block mb-4">Leadership</a>
+            <a class="link link-hover block mb-4">News & Article</a>
+          </nav> 
+          <nav>
+            <h4 class=" text-white font-extrabold text-xl mb-10">Support</h4> 
+            <a class="link link-hover block mb-4">Help Center</a>
+            <a class="link link-hover block mb-4">FAQ</a>
+            <a class="link link-hover block mb-4">Ticket Support</a>
+            <a class="link link-hover  block mb-4">Contact Us</a>
+          </nav> 
+        </div>
+        <div class="lg:text-left text-center">
+          <nav>
+            <h4 class=" text-white font-extrabold text-xl mb-10">Services</h4> 
+            <a class="link link-hover block mb-4">Academy</a>
+            <a class="link link-hover block mb-4">Group Lesson</a>
+            <a class="link link-hover block mb-4">Private Lesson</a>
+            <a class="link link-hover block mb-4">Hockeys for kids</a>
+            <a class="link link-hover block mb-4">Hockeys for Adult</a>
+          </nav> 
+          
+        </div>
        
       </footer>
-    </footer>
+
     <!-- footer section end -->
 </body>
 </html>
